@@ -472,6 +472,81 @@ li a:hover{
     cursor: pointer;
     font-weight: 600;
 }
+    .section-one{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px 20px;
+        background-color: #293138;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .cases{
+        flex: 30%;
+    }
+
+    .pg1{
+        font-family: 'Lora';
+        font-weight: 400;
+        font-size: 2rem;
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    
+    .section-three-container-one{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 130px;
+        gap: 110px;
+    }
+
+    .team{
+        flex-wrap: wrap;
+        padding: 30px 10px;
+    }
+
+    .section-six-container-one {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .quote{
+        padding: 40px 0px;
+        border: 1px solid #B89B5E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact{
+        margin-bottom: 16px;
+        display: flex;
+    }
+
+    .contact, .footer{
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        gap: 30px;
+        padding: 20px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .cases{
+        flex: 50%
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -481,5 +556,38 @@ li a:hover{
         border: none;
         color: #ffff;
         display: none;
-    } 
+    }
+    .cases{
+        flex: 50%;
+    }
+
+    #contact{
+        margin-bottom: 16px;
+        display: flex;
+    }
+
+    .pg1{
+        font-family: 'Lora';
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: #ffff;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .pg8, .pg9, .pg11{
+        font-size: 1.5rem;
+    }
+
+    .copy, .template{
+        font-size: 0.8rem;
+    }
+
+    .footer{
+        gap: 30px;
+        padding: 20px 10px;
+        justify-content: center;
+        align-items: center;
+    }
 }
