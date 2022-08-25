@@ -441,7 +441,7 @@ li a:hover{
 }
 
 
-@media (max-width:1000px) {
+@media screen and (max-width:1000px) {
     ul{
         display: none;
     }
@@ -451,7 +451,7 @@ li a:hover{
         padding: 20px 30px;
     }
 }
-@media (max-width:830px) {
+@media screen and (max-width:830px) {
     .logo{
         color: #B89B5E;
         font-size: 1.2rem;
@@ -474,7 +474,7 @@ li a:hover{
 }
 }
 
-@media (max-width:375px) {
+@media screen and (max-width:375px) {
     .contact-us{
         background-color: #B89B5E;
         padding: 10px 20px;
